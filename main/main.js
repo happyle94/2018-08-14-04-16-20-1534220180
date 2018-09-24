@@ -11,7 +11,8 @@ class Sequence {
     // Write your code here
 	this.input = input;
   }
-
+  
+//求最小值
   minimum() {
     // Write your code here
 	var min = this.input[0];
@@ -24,6 +25,7 @@ class Sequence {
   }
 
   // Write your code here
+  //求最大值
   maximum(){
 	  var max = this.input[0];
 	  for (var j = 1; j < this.input.length; j++)
@@ -33,6 +35,14 @@ class Sequence {
 	  }
 	  return max;
   }
+  
+  //求元素数量
+  getLength(){
+	  return this.input.length;
+  }
+}
+
+  //求平均值
   averageValue() {
 	  var sum = 0;
 	  for ( var k = 0; k < this.input.length; k++)
@@ -44,7 +54,5 @@ class Sequence {
 	  return ave;
 
   }
-  getLength(){
-	  return this.input.length;
-  }
-}
+  
+  
