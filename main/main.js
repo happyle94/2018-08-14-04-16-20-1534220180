@@ -40,7 +40,6 @@ class Sequence {
   getLength(){
 	  return this.input.length;
   }
-}
 
   //求平均值
   averageValue() {
@@ -54,5 +53,6 @@ class Sequence {
 	  return ave;
 
   }
+}
   
   
